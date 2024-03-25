@@ -16,11 +16,11 @@ class ProjectUtils {
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/imgs/02.png',
-    icons: 'assets/imgs/flutter.png',
+    icons: 'assets/imgs/android.png',
     titles: 'Awesome Social Media App',
     description:
         'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/ashishgupta8051/poetically-.git',
+    links: 'https://github.com/ashishgupta8051/Make-Friends',
   ),
   ProjectUtils(
     banners: 'assets/imgs/1.png',

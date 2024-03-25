@@ -19,12 +19,12 @@ class NavBarLogo extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text("< ", style: textSty),
-        Text("Ashish", style: textSty),
-        Text(
-          Responsive.isDesktop(context) ? " />\t\t" : " />",
-          style: textSty,
-        )
+        // Text("< ", style: textSty),
+        Text("My Portfolio", style: textSty),
+        // Text(
+        //   Responsive.isDesktop(context) ? " />\t\t" : " />",
+        //   style: textSty,
+        // )
       ],
     );
   }
