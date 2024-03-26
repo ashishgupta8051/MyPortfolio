@@ -10,7 +10,7 @@ const String twitter = 'https://twitter.com/ashish80511';
 // Github Link
 const String youtube = 'https://www.youtube.com/channel/UCXooUY2oL_eqGhTaZn-ExSg'; // no use
 // Github Link
-const String linkedin = 'https://linkedin.com/in/ashish-gupta-0128401a';
+const String linkedin = 'https://www.linkedin.com/in/ashish-gupta-0128401a0/';
 // Github Link
 const String buymeacoffee = 'https://www.buymeacoffee.com/ashishgupta8051'; // no use
 // Github Link
