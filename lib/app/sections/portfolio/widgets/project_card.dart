@@ -36,10 +36,11 @@ class ProjectCardState extends State<ProjectCard> {
       },
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: 1.w),
+        padding: const EdgeInsets.all(10),
         width: Responsive.isDesktop(context) ? 30.w : 70.w,
         height: 36.h,
         decoration: BoxDecoration(
-          gradient: isHover ? pinkpurple : grayBack,
+          gradient: isHover ? pinkpurple : grayWhite,
           borderRadius: BorderRadius.circular(10),
           boxShadow: isHover ? [primaryColorShadow] : [blackColorShadow],
         ),

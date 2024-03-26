@@ -60,8 +60,16 @@ class HomeMobile extends StatelessWidget {
               ),
             ],
           ),
-
           Space.y(2.w)!,
+          Padding(
+            padding: EdgeInsets.only(right: 10.w),
+            child: Text(miniDescriptionForPhone,
+                style: TextStyle(
+                  fontSize: isFontSize(context, 12),
+                  fontWeight: FontWeight.w300,
+                  color: Theme.of(context).textColor.withOpacity(0.6),
+                )),
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

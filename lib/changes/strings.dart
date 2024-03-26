@@ -13,13 +13,14 @@ String contactSubHeadding =
 //
 String miniDescription =
     "As a freelance Mobile App Developer for cross-platform apps, I harness 3+ years of proficiency in Java, Kotlin, and Dart. Meticulous interface design and seamless integration of APIs, push notifications, payment gateways & much more.  Committed to delivering exceptional user experiences, I blend passion with expertise in every project.";
+String miniDescriptionForPhone = "Harnessing 3+ years in Java, Kotlin, Dart, I craft cross-platform apps with meticulous design, integrated APIs, ensuring exceptional experiences.";
 
 String servicesSubHeading =
-    "Since the beginning of my journey as a freelance designer and developer, I've worked in startups and collaborated with talented people to create digital products for both business and consumer use. I offer a wide range of services, including brand design, programming and teaching.";
+    "Since the beginning of my journey as a developer, freelance and designer , I've worked in startups and collaborated with talented people to create digital products for both business and consumer use. I offer a wide range of services, including brand design, programming and teaching.";
 //
 
 String protfolioSubHeading =
-    "Since the beginning of my journey as a designer and developer, I have created digital products for business and consumer use. This is a little bit.";
+    "Since the beginning of my journey as a developer, freelance and designer, I have created digital products for business and consumer use. This is a little bit.";
 const String aboutMeHeadline =
     'I\'m Ashish Gupta, a Mobile App developer, Web developer and UI designer.';
 
