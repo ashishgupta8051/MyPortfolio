@@ -19,7 +19,7 @@ class HomeMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: 10.w, top: 10.h, right: 10.w),
+      padding: EdgeInsets.only(left: 10.w, top: 12.h, right: 10.w),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -82,7 +82,7 @@ class HomeMobile extends StatelessWidget {
               const EntranceFader(
                 offset: Offset(0, 0),
                 delay: Duration(seconds: 1),
-                duration: Duration(milliseconds: 800),
+                duration: Duration(milliseconds: 100),
                 child: ZoomAnimations(),
               )
             ],

@@ -16,46 +16,49 @@ class PortfolioMobileTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
-    return Column(
-      children: [
-        const CustomSectionHeading(text: "\nProjects"),
-        Space.y(3.w)!,
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: CustomSectionSubHeading(text: protfolioSubHeading),
-        ),
-        Space.y(5.w)!,
-        CarouselSlider.builder(
-          itemCount: projectUtils.length,
-          itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
-            padding: const EdgeInsets.symmetric(vertical: 15.0),
-            child: ProjectCard(project: projectUtils[i]),
+    return Container(
+      margin: const EdgeInsets.only(top: 15),
+      child: Column(
+        children: [
+          const CustomSectionHeading(text: "\nProjects"),
+          Space.y(3.w)!,
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 10.w),
+            child: CustomSectionSubHeading(text: protfolioSubHeading),
           ),
-          options: CarouselOptions(
-            height: height * 0.4,
-            autoPlay: true,
-            autoPlayInterval: const Duration(seconds: 5),
-            enlargeCenterPage: true,
-            autoPlayCurve: Curves.fastOutSlowIn,
-            autoPlayAnimationDuration: const Duration(milliseconds: 800),
-            enableInfiniteScroll: false,
-          ),
-        ),
-        Space.y(3.w)!,
-        OutlinedButton(
-          onPressed: () => openURL(gitHub),
-          child: const Padding(
-            padding: EdgeInsets.all(8.0),
-            child: Text(
-              'See More',
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.w600,
-              ),
+          Space.y(5.w)!,
+          CarouselSlider.builder(
+            itemCount: projectUtils.length,
+            itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
+              padding: const EdgeInsets.symmetric(vertical: 15.0),
+              child: ProjectCard(project: projectUtils[i]),
+            ),
+            options: CarouselOptions(
+              height: height * 0.4,
+              autoPlay: true,
+              autoPlayInterval: const Duration(seconds: 5),
+              enlargeCenterPage: true,
+              autoPlayCurve: Curves.fastOutSlowIn,
+              autoPlayAnimationDuration: const Duration(milliseconds: 800),
+              enableInfiniteScroll: false,
             ),
           ),
-        )
-      ],
+          Space.y(3.w)!,
+          OutlinedButton(
+            onPressed: () => openURL(gitHub),
+            child: const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Text(
+                'See More',
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+          )
+        ],
+      ),
     );
   }
 }

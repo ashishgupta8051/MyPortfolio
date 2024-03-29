@@ -20,14 +20,14 @@ class HomeDesktop extends StatelessWidget {
     var theme = Theme.of(context);
 
     return SizedBox(
-      height: 80.h,
+      height: 90.h,
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 10.w),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
-              margin: EdgeInsets.only(top: 10.h),
+              margin: EdgeInsets.only(top: 15.h),
               width: 55.w,
               child: Column(
                 mainAxisSize: MainAxisSize.min,
@@ -91,7 +91,12 @@ class HomeDesktop extends StatelessWidget {
                 ],
               ),
             ),
-            const ZoomAnimations(),
+            const EntranceFader(
+              offset: Offset(0, 0),
+              delay: Duration(seconds: 1),
+              duration: Duration(milliseconds: 100),
+              child: ZoomAnimations(),
+            )
           ],
         ),
       ),

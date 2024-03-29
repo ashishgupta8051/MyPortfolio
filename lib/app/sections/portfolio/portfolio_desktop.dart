@@ -21,6 +21,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Container(
+      margin: const EdgeInsets.only(bottom: 30),
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [

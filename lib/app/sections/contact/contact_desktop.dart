@@ -89,21 +89,26 @@ class ContactDesktop extends StatelessWidget {
                   ],
                 ),
                 Container(color: Colors.white.withOpacity(0.2), height: 1),
-                Space.y(2.w)!,
+                Space.y(1.w)!,
                 Wrap(
                     alignment: WrapAlignment.center,
                     runSpacing: 50,
                     children: contactUtils
                         .asMap()
                         .entries
-                        .map((e) => IconButton(
-                              icon: Image.network(
-                                e.value.icon,
-                                color: theme.textColor,
+                        .map((e) => Container(
+                              margin: const EdgeInsets.only(right: 10),
+                              width: 55,
+                              height: 55,
+                              child: IconButton(
+                                icon: Image.network(
+                                  e.value.icon,
+                                  color: theme.textColor,
+                                ),
+                                onPressed: () => openURL(e.value.url),
+                                highlightColor: Colors.white54,
+                                iconSize: 21,
                               ),
-                              onPressed: () => openURL(e.value.url),
-                              highlightColor: Colors.white54,
-                              iconSize: 21,
                             ))
                         .toList()),
               ],
