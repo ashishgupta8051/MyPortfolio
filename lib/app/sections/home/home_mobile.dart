@@ -111,7 +111,7 @@ class HomeMobile extends StatelessWidget {
                         image: const DecorationImage(
                           fit: BoxFit.cover,
                           alignment: Alignment.bottomLeft,
-                          image: AssetImage('assets/imgs/profile_pic.png'),
+                          image: AssetImage('assets/imgs/profile_pic.jpeg'),
                         ),
                       ),
                     ),

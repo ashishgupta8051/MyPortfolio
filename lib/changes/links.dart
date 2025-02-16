@@ -1,5 +1,5 @@
 // CV
-const String resume = 'https://drive.google.com/file/d/1bIHqrvhdhGYWh389h-3Frht1MMb0KH5s/view?usp=sharing';
+const String resume = 'https://drive.google.com/file/d/1NXeGOafvUTkEFw8pepwQbp-YF14XU9vi/view?usp=sharing';
 
 // Github Link
 const String gitHub = 'https://github.com/ashishgupta8051';

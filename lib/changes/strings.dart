@@ -12,7 +12,7 @@ String contactSubHeadding =
     "Let’s work together and make everything super cute and super useful.";
 //
 String miniDescription =
-    "As a freelance Mobile App Developer for cross-platform apps, I harness 3+ years of proficiency in Java, Kotlin, and Dart. Meticulous interface design and seamless integration of APIs, push notifications, payment gateways & much more.  Committed to delivering exceptional user experiences, I blend passion with expertise in every project.";
+    "I have over 3 years of experience as a mobile app developer, creating user-friendly and high-quality applications. I specialize in building smooth interfaces and integrating features like APIs, push notifications, payment systems, maps, and social media. I also ensure efficient data storage and app performance. Staying updated with the latest trends, I focus on delivering modern and innovative solutions. My goal is to develop apps that offer an excellent user experience.";
 String miniDescriptionForPhone = "Harnessing 3+ years in Java, Kotlin, Dart, I craft cross-platform apps with meticulous design, integrated APIs, ensuring exceptional experiences.";
 
 String servicesSubHeading =
