@@ -15,9 +15,17 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
+    banners: 'assets/imgs/sign3.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Sign3 SDK',
+    description:
+    'Sign3 SDK is a fraud prevention toolkit that assesses device security by detecting risks like rooting, VPNs, and remote access to enhance protection against fraud.',
+    links: 'https://pub.dev/packages/flutter_intelligence_sign3',
+  ),
+  ProjectUtils(
     banners: 'assets/imgs/make_friends.jpeg',
     icons: 'assets/imgs/android.png',
-    titles: 'Awesome Social Media App',
+    titles: 'Make Friends',
     description:
         'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
     links: 'https://github.com/ashishgupta8051/Make-Friends',
@@ -25,7 +33,7 @@ List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/imgs/shopsphere.jpg',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome ECommerce App',
+    titles: 'Shop Sphere',
     description:
     'Shop Sphere: An online marketplace for easy shopping anywhere, check below',
     links: 'https://github.com/ashishgupta8051/shop-sphere',
@@ -33,10 +41,10 @@ List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/imgs/ballebaazi.jpeg',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Ballebaazi',
+    titles: 'Ballebaazi Freerolls',
     description:
-    'BalleBaazi is a fun app for cricket fans. Create virtual teams, pick real players, earn points, compete, win prizes.',
-    links: 'https://apps.apple.com/in/app/sportsbaazi-fantasy-app/id1438726846',
+    'SportsBaazi Freerolls is a fun app for cricket fans. Create virtual teams, pick real players, earn points, compete, win prizes.',
+    links: 'https://play.google.com/store/apps/details?id=com.fantasycricket.ballebaazi&hl=en_IN',
   ),
   ProjectUtils(
     banners: 'assets/imgs/photo_editor.jpeg',

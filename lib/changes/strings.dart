@@ -11,8 +11,8 @@ String contactHeadding = "Let’s try my service now!";
 String contactSubHeadding =
     "Let’s work together and make everything super cute and super useful.";
 //
-String miniDescription =
-    "I have over 3 years of experience as a mobile app developer, creating user-friendly and high-quality applications. I specialize in building smooth interfaces and integrating features like APIs, push notifications, payment systems, maps, and social media. I also ensure efficient data storage and app performance. Staying updated with the latest trends, I focus on delivering modern and innovative solutions. My goal is to develop apps that offer an excellent user experience.";
+String miniDescription = "Mobile App Developer with 3 years of hands-on experience in designing, developing, and maintaining high-quality Android and cross-platform applications. Proficient in Java, Kotlin, and Flutter (Dart), with a strong focus on delivering clean UI/UX, seamless API integrations, and efficient app performance. Adept at implementing push notifications, payment gateways, maps, and social media integrations. Skilled in debugging, optimizing code, and working in agile environments. Passionate about creating modern, user-centric mobile solutions and continuously staying updated with evolving technologies.";
+
 String miniDescriptionForPhone = "Harnessing 3+ years in Java, Kotlin, Dart, I craft cross-platform apps with meticulous design, integrated APIs, ensuring exceptional experiences.";
 
 String servicesSubHeading =
