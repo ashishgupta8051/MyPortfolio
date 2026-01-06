@@ -28,8 +28,8 @@ class _ServiceCardState extends State<_ServiceCard> {
         }
       },
       child: Container(
-        width: Responsive.isTablet(context) ? 400 : 300,
-        height: Responsive.isTablet(context) ? 300 : 310,
+        width: Responsive.isDesktop(context) ? 21.w : Responsive.isMobile(context) ? 80.w : 100.w,
+        height: 40.h,
         padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
         decoration: BoxDecoration(
           // gradient: isHover ? pinkpurple : grayBack,
